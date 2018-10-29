@@ -1,3 +1,3 @@
-[submodule "boost/modular-boost"]
-	path = boost/modular-boost
-	url = git@github.com:boostorg/boost.git
+[submodule "boost"]
+	path = boost
+	url = https://github.com/faithfracture/Apple-Boost-BuildScript.git

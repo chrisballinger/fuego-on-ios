@@ -162,7 +162,7 @@ void SgGtpCommands::CmdDebugger(GtpCommand& cmd)
     else
         throw GtpFailure() << "unknown debugger: " << type;
     SgDebug() << "Executing: " << s.str() << '\n';
-    int retval = system(s.str().c_str());
+    int retval = 0; //system(s.str().c_str());
     if (retval != 0)
         throw GtpFailure() << "command returned " << retval;
 #endif

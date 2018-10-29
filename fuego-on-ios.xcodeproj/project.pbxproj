@@ -300,6 +300,300 @@
 		CDEFA5E217FA291500A99F64 /* SgVector.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44B17FA173400A99F64 /* SgVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEFA5E317FA291500A99F64 /* SgVectorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44D17FA173400A99F64 /* SgVectorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDEFA5E417FA291500A99F64 /* SgWrite.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44F17FA173400A99F64 /* SgWrite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D55B042182DBA90096D7C9 /* fuego.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D55B022182DBA90096D7C9 /* fuego.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D55B082182DC1A0096D7C9 /* FuegoMainEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA30917FA173300A99F64 /* FuegoMainEngine.cpp */; };
+		D9D55B092182DC1E0096D7C9 /* FuegoMainUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA30B17FA173300A99F64 /* FuegoMainUtil.cpp */; };
+		D9D55B0A2182DC230096D7C9 /* GoAutoBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31017FA173300A99F64 /* GoAutoBook.cpp */; };
+		D9D55B0B2182DC230096D7C9 /* GoBensonSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31217FA173300A99F64 /* GoBensonSolver.cpp */; };
+		D9D55B0C2182DC230096D7C9 /* GoBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31417FA173300A99F64 /* GoBlock.cpp */; };
+		D9D55B0D2182DC230096D7C9 /* GoBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31617FA173300A99F64 /* GoBoard.cpp */; };
+		D9D55B0E2182DC230096D7C9 /* GoBoardCheckPerformance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31817FA173300A99F64 /* GoBoardCheckPerformance.cpp */; };
+		D9D55B0F2182DC230096D7C9 /* GoBoardHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31A17FA173300A99F64 /* GoBoardHistory.cpp */; };
+		D9D55B102182DC230096D7C9 /* GoBoardRestorer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31C17FA173300A99F64 /* GoBoardRestorer.cpp */; };
+		D9D55B112182DC230096D7C9 /* GoBoardSynchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA31E17FA173300A99F64 /* GoBoardSynchronizer.cpp */; };
+		D9D55B122182DC230096D7C9 /* GoBoardUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32017FA173300A99F64 /* GoBoardUpdater.cpp */; };
+		D9D55B132182DC230096D7C9 /* GoBoardUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32217FA173300A99F64 /* GoBoardUtil.cpp */; };
+		D9D55B142182DC230096D7C9 /* GoBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32417FA173300A99F64 /* GoBook.cpp */; };
+		D9D55B152182DC230096D7C9 /* GoChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32617FA173300A99F64 /* GoChain.cpp */; };
+		D9D55B162182DC230096D7C9 /* GoEyeCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32817FA173300A99F64 /* GoEyeCount.cpp */; };
+		D9D55B172182DC230096D7C9 /* GoEyeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32A17FA173300A99F64 /* GoEyeUtil.cpp */; };
+		D9D55B182182DC230096D7C9 /* GoGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32C17FA173300A99F64 /* GoGame.cpp */; };
+		D9D55B192182DC230096D7C9 /* GoGtpCommandUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA32E17FA173300A99F64 /* GoGtpCommandUtil.cpp */; };
+		D9D55B1A2182DC230096D7C9 /* GoGtpEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33017FA173300A99F64 /* GoGtpEngine.cpp */; };
+		D9D55B1B2182DC230096D7C9 /* GoGtpExtraCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33217FA173300A99F64 /* GoGtpExtraCommands.cpp */; };
+		D9D55B1C2182DC230096D7C9 /* GoInfluence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33417FA173300A99F64 /* GoInfluence.cpp */; };
+		D9D55B1D2182DC230096D7C9 /* GoInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33617FA173300A99F64 /* GoInit.cpp */; };
+		D9D55B1E2182DC230096D7C9 /* GoKomi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33817FA173300A99F64 /* GoKomi.cpp */; };
+		D9D55B1F2182DC230096D7C9 /* GoLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33A17FA173300A99F64 /* GoLadder.cpp */; };
+		D9D55B202182DC230096D7C9 /* GoMotive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA33D17FA173300A99F64 /* GoMotive.cpp */; };
+		D9D55B212182DC230096D7C9 /* GoNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34017FA173300A99F64 /* GoNodeUtil.cpp */; };
+		D9D55B222182DC230096D7C9 /* GoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34217FA173300A99F64 /* GoPlayer.cpp */; };
+		D9D55B232182DC230096D7C9 /* GoPlayerMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34417FA173300A99F64 /* GoPlayerMove.cpp */; };
+		D9D55B242182DC230096D7C9 /* GoRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34617FA173300A99F64 /* GoRegion.cpp */; };
+		D9D55B252182DC230096D7C9 /* GoRegionBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34817FA173300A99F64 /* GoRegionBoard.cpp */; };
+		D9D55B262182DC230096D7C9 /* GoRegionUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34A17FA173300A99F64 /* GoRegionUtil.cpp */; };
+		D9D55B272182DC230096D7C9 /* GoRules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34C17FA173300A99F64 /* GoRules.cpp */; };
+		D9D55B282182DC230096D7C9 /* GoSafetyCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA34E17FA173300A99F64 /* GoSafetyCommands.cpp */; };
+		D9D55B292182DC230096D7C9 /* GoSafetySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35017FA173300A99F64 /* GoSafetySolver.cpp */; };
+		D9D55B2A2182DC230096D7C9 /* GoSafetyUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35217FA173300A99F64 /* GoSafetyUtil.cpp */; };
+		D9D55B2B2182DC230096D7C9 /* GoSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35417FA173300A99F64 /* GoSearch.cpp */; };
+		D9D55B2C2182DC230096D7C9 /* GoSetupUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35717FA173300A99F64 /* GoSetupUtil.cpp */; };
+		D9D55B2D2182DC230096D7C9 /* GoStaticLadder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35A17FA173300A99F64 /* GoStaticLadder.cpp */; };
+		D9D55B2E2182DC230096D7C9 /* GoStaticSafetySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35C17FA173300A99F64 /* GoStaticSafetySolver.cpp */; };
+		D9D55B2F2182DC230096D7C9 /* GoTimeControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA35E17FA173300A99F64 /* GoTimeControl.cpp */; };
+		D9D55B302182DC230096D7C9 /* GoTimeSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA36017FA173300A99F64 /* GoTimeSettings.cpp */; };
+		D9D55B312182DC230096D7C9 /* GoUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA36217FA173300A99F64 /* GoUtil.cpp */; };
+		D9D55B322182DC270096D7C9 /* GoUctAdditiveKnowledge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA37817FA173300A99F64 /* GoUctAdditiveKnowledge.cpp */; };
+		D9D55B332182DC270096D7C9 /* GoUctAdditiveKnowledgeFuego.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA37A17FA173300A99F64 /* GoUctAdditiveKnowledgeFuego.cpp */; };
+		D9D55B342182DC270096D7C9 /* GoUctAdditiveKnowledgeGreenpeep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA37C17FA173300A99F64 /* GoUctAdditiveKnowledgeGreenpeep.cpp */; };
+		D9D55B352182DC270096D7C9 /* GoUctAdditiveKnowledgeMultiple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA067F21870D64A000805B5 /* GoUctAdditiveKnowledgeMultiple.cpp */; };
+		D9D55B362182DC270096D7C9 /* GoUctBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA37E17FA173300A99F64 /* GoUctBoard.cpp */; };
+		D9D55B372182DC270096D7C9 /* GoUctCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA38217FA173300A99F64 /* GoUctCommands.cpp */; };
+		D9D55B382182DC270096D7C9 /* GoUctDefaultMoveFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA38417FA173300A99F64 /* GoUctDefaultMoveFilter.cpp */; };
+		D9D55B392182DC270096D7C9 /* GoUctDefaultPriorKnowledge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA38617FA173300A99F64 /* GoUctDefaultPriorKnowledge.cpp */; };
+		D9D55B3A2182DC270096D7C9 /* GoUctEstimatorStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA38817FA173300A99F64 /* GoUctEstimatorStat.cpp */; };
+		D9D55B3B2182DC270096D7C9 /* GoUctGlobalSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA38C17FA173300A99F64 /* GoUctGlobalSearch.cpp */; };
+		D9D55B3C2182DC270096D7C9 /* GoUctKnowledge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39017FA173300A99F64 /* GoUctKnowledge.cpp */; };
+		D9D55B3D2182DC270096D7C9 /* GoUctKnowledgeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39217FA173300A99F64 /* GoUctKnowledgeFactory.cpp */; };
+		D9D55B3E2182DC270096D7C9 /* GoUctLadderKnowledge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39417FA173300A99F64 /* GoUctLadderKnowledge.cpp */; };
+		D9D55B3F2182DC270096D7C9 /* GoUctMoveFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39717FA173300A99F64 /* GoUctMoveFilter.cpp */; };
+		D9D55B402182DC270096D7C9 /* GoUctObjectWithSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39917FA173300A99F64 /* GoUctObjectWithSearch.cpp */; };
+		D9D55B412182DC270096D7C9 /* GoUctPlayoutPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA39E17FA173300A99F64 /* GoUctPlayoutPolicy.cpp */; };
+		D9D55B422182DC270096D7C9 /* GoUctSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3A117FA173300A99F64 /* GoUctSearch.cpp */; };
+		D9D55B432182DC270096D7C9 /* GoUctUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3A317FA173300A99F64 /* GoUctUtil.cpp */; };
+		D9D55B442182DC2B0096D7C9 /* GtpEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3AC17FA173300A99F64 /* GtpEngine.cpp */; };
+		D9D55B452182DC2B0096D7C9 /* GtpInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3AE17FA173300A99F64 /* GtpInputStream.cpp */; };
+		D9D55B462182DC2B0096D7C9 /* GtpOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3B017FA173300A99F64 /* GtpOutputStream.cpp */; };
+		D9D55B472182DC2F0096D7C9 /* SpAveragePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3B717FA173400A99F64 /* SpAveragePlayer.cpp */; };
+		D9D55B482182DC2F0096D7C9 /* SpCapturePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3B917FA173400A99F64 /* SpCapturePlayer.cpp */; };
+		D9D55B492182DC2F0096D7C9 /* SpDumbTacticalPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3BB17FA173400A99F64 /* SpDumbTacticalPlayer.cpp */; };
+		D9D55B4A2182DC2F0096D7C9 /* SpGreedyPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3BD17FA173400A99F64 /* SpGreedyPlayer.cpp */; };
+		D9D55B4B2182DC2F0096D7C9 /* SpInfluencePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3BF17FA173400A99F64 /* SpInfluencePlayer.cpp */; };
+		D9D55B4C2182DC2F0096D7C9 /* SpLadderPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3C117FA173400A99F64 /* SpLadderPlayer.cpp */; };
+		D9D55B4D2182DC2F0096D7C9 /* SpLibertyPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3C317FA173400A99F64 /* SpLibertyPlayer.cpp */; };
+		D9D55B4E2182DC2F0096D7C9 /* SpMaxEyePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3C517FA173400A99F64 /* SpMaxEyePlayer.cpp */; };
+		D9D55B4F2182DC2F0096D7C9 /* SpMinLibPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3C717FA173400A99F64 /* SpMinLibPlayer.cpp */; };
+		D9D55B502182DC2F0096D7C9 /* SpMoveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3C917FA173400A99F64 /* SpMoveGenerator.cpp */; };
+		D9D55B512182DC2F0096D7C9 /* SpRandomPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3CB17FA173400A99F64 /* SpRandomPlayer.cpp */; };
+		D9D55B522182DC2F0096D7C9 /* SpSafePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3CD17FA173400A99F64 /* SpSafePlayer.cpp */; };
+		D9D55B532182DC2F0096D7C9 /* SpSimplePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3CF17FA173400A99F64 /* SpSimplePlayer.cpp */; };
+		D9D55B542182DC2F0096D7C9 /* SpUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3D117FA173400A99F64 /* SpUtil.cpp */; };
+		D9D55B552182DC350096D7C9 /* SgBoardConst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3DA17FA173400A99F64 /* SgBoardConst.cpp */; };
+		D9D55B562182DC350096D7C9 /* SgBookBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3DC17FA173400A99F64 /* SgBookBuilder.cpp */; };
+		D9D55B572182DC350096D7C9 /* SgCmdLineOpt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3E017FA173400A99F64 /* SgCmdLineOpt.cpp */; };
+		D9D55B582182DC350096D7C9 /* SgConnCompIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3E217FA173400A99F64 /* SgConnCompIterator.cpp */; };
+		D9D55B592182DC350096D7C9 /* SgDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3E417FA173400A99F64 /* SgDebug.cpp */; };
+		D9D55B5A2182DC350096D7C9 /* SgDfpnSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3E617FA173400A99F64 /* SgDfpnSearch.cpp */; };
+		D9D55B5B2182DC350096D7C9 /* SgEvaluatedMoves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3E917FA173400A99F64 /* SgEvaluatedMoves.cpp */; };
+		D9D55B5C2182DC350096D7C9 /* SgException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3EB17FA173400A99F64 /* SgException.cpp */; };
+		D9D55B5D2182DC350096D7C9 /* SgFastLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3ED17FA173400A99F64 /* SgFastLog.cpp */; };
+		D9D55B5E2182DC350096D7C9 /* SgGameReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3EF17FA173400A99F64 /* SgGameReader.cpp */; };
+		D9D55B5F2182DC350096D7C9 /* SgGameWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3F117FA173400A99F64 /* SgGameWriter.cpp */; };
+		D9D55B602182DC350096D7C9 /* SgGtpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3F317FA173400A99F64 /* SgGtpClient.cpp */; };
+		D9D55B612182DC350096D7C9 /* SgGtpCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3F517FA173400A99F64 /* SgGtpCommands.cpp */; };
+		D9D55B622182DC350096D7C9 /* SgGtpUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3F717FA173400A99F64 /* SgGtpUtil.cpp */; };
+		D9D55B632182DC350096D7C9 /* SgIncrementalStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3FB17FA173400A99F64 /* SgIncrementalStack.cpp */; };
+		D9D55B642182DC350096D7C9 /* SgInit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA3FD17FA173400A99F64 /* SgInit.cpp */; };
+		D9D55B652182DC350096D7C9 /* SgMemCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40117FA173400A99F64 /* SgMemCheck.cpp */; };
+		D9D55B662182DC350096D7C9 /* SgMiaiMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40317FA173400A99F64 /* SgMiaiMap.cpp */; };
+		D9D55B672182DC350096D7C9 /* SgMiaiStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40517FA173400A99F64 /* SgMiaiStrategy.cpp */; };
+		D9D55B682182DC350096D7C9 /* SgMpiSynchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40817FA173400A99F64 /* SgMpiSynchronizer.cpp */; };
+		D9D55B692182DC350096D7C9 /* SgNbIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40A17FA173400A99F64 /* SgNbIterator.cpp */; };
+		D9D55B6A2182DC350096D7C9 /* SgNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40C17FA173400A99F64 /* SgNode.cpp */; };
+		D9D55B6B2182DC350096D7C9 /* SgNodeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA40E17FA173400A99F64 /* SgNodeUtil.cpp */; };
+		D9D55B6C2182DC350096D7C9 /* SgPlatform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41017FA173400A99F64 /* SgPlatform.cpp */; };
+		D9D55B6D2182DC350096D7C9 /* SgPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41217FA173400A99F64 /* SgPoint.cpp */; };
+		D9D55B6E2182DC350096D7C9 /* SgPointSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41617FA173400A99F64 /* SgPointSet.cpp */; };
+		D9D55B6F2182DC350096D7C9 /* SgPointSetUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41817FA173400A99F64 /* SgPointSetUtil.cpp */; };
+		D9D55B702182DC350096D7C9 /* SgProbCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41A17FA173400A99F64 /* SgProbCut.cpp */; };
+		D9D55B712182DC350096D7C9 /* SgProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41C17FA173400A99F64 /* SgProcess.cpp */; };
+		D9D55B722182DC350096D7C9 /* SgProp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA41E17FA173400A99F64 /* SgProp.cpp */; };
+		D9D55B732182DC350096D7C9 /* SgRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42017FA173400A99F64 /* SgRandom.cpp */; };
+		D9D55B742182DC350096D7C9 /* SgRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42217FA173400A99F64 /* SgRect.cpp */; };
+		D9D55B752182DC350096D7C9 /* SgSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42517FA173400A99F64 /* SgSearch.cpp */; };
+		D9D55B762182DC350096D7C9 /* SgSearchControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42717FA173400A99F64 /* SgSearchControl.cpp */; };
+		D9D55B772182DC350096D7C9 /* SgSearchStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42917FA173400A99F64 /* SgSearchStatistics.cpp */; };
+		D9D55B782182DC350096D7C9 /* SgSearchTracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42B17FA173400A99F64 /* SgSearchTracer.cpp */; };
+		D9D55B792182DC350096D7C9 /* SgSearchValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA42D17FA173400A99F64 /* SgSearchValue.cpp */; };
+		D9D55B7A2182DC350096D7C9 /* SgStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA43417FA173400A99F64 /* SgStrategy.cpp */; };
+		D9D55B7B2182DC350096D7C9 /* SgStringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA43617FA173400A99F64 /* SgStringUtil.cpp */; };
+		D9D55B7C2182DC350096D7C9 /* SgSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA43817FA173400A99F64 /* SgSystem.cpp */; };
+		D9D55B7D2182DC350096D7C9 /* SgTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA43B17FA173400A99F64 /* SgTime.cpp */; };
+		D9D55B7E2182DC350096D7C9 /* SgTimeControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA43D17FA173400A99F64 /* SgTimeControl.cpp */; };
+		D9D55B7F2182DC350096D7C9 /* SgTimeRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44017FA173400A99F64 /* SgTimeRecord.cpp */; };
+		D9D55B802182DC350096D7C9 /* SgUctSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44217FA173400A99F64 /* SgUctSearch.cpp */; };
+		D9D55B812182DC350096D7C9 /* SgUctTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44417FA173400A99F64 /* SgUctTree.cpp */; };
+		D9D55B822182DC350096D7C9 /* SgUctTreeUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44617FA173400A99F64 /* SgUctTreeUtil.cpp */; };
+		D9D55B832182DC350096D7C9 /* SgUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44917FA173400A99F64 /* SgUtil.cpp */; };
+		D9D55B842182DC350096D7C9 /* SgVectorUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44C17FA173400A99F64 /* SgVectorUtil.cpp */; };
+		D9D55B852182DC350096D7C9 /* SgWrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEFA44E17FA173400A99F64 /* SgWrite.cpp */; };
+		D9D55B862182DC4F0096D7C9 /* FuegoMainEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA30A17FA173300A99F64 /* FuegoMainEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D55B872182DC4F0096D7C9 /* FuegoMainUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA30C17FA173300A99F64 /* FuegoMainUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D55B882182DC760096D7C9 /* GoAssertBoardRestored.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA30F17FA173300A99F64 /* GoAssertBoardRestored.h */; };
+		D9D55B892182DC760096D7C9 /* GoAutoBook.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31117FA173300A99F64 /* GoAutoBook.h */; };
+		D9D55B8A2182DC760096D7C9 /* GoBensonSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31317FA173300A99F64 /* GoBensonSolver.h */; };
+		D9D55B8B2182DC760096D7C9 /* GoBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31517FA173300A99F64 /* GoBlock.h */; };
+		D9D55B8C2182DC760096D7C9 /* GoBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31717FA173300A99F64 /* GoBoard.h */; };
+		D9D55B8D2182DC760096D7C9 /* GoBoardCheckPerformance.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31917FA173300A99F64 /* GoBoardCheckPerformance.h */; };
+		D9D55B8E2182DC760096D7C9 /* GoBoardHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31B17FA173300A99F64 /* GoBoardHistory.h */; };
+		D9D55B8F2182DC760096D7C9 /* GoBoardRestorer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31D17FA173300A99F64 /* GoBoardRestorer.h */; };
+		D9D55B902182DC760096D7C9 /* GoBoardSynchronizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA31F17FA173300A99F64 /* GoBoardSynchronizer.h */; };
+		D9D55B912182DC760096D7C9 /* GoBoardUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32117FA173300A99F64 /* GoBoardUpdater.h */; };
+		D9D55B922182DC760096D7C9 /* GoBoardUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32317FA173300A99F64 /* GoBoardUtil.h */; };
+		D9D55B932182DC760096D7C9 /* GoBook.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32517FA173300A99F64 /* GoBook.h */; };
+		D9D55B942182DC760096D7C9 /* GoChain.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32717FA173300A99F64 /* GoChain.h */; };
+		D9D55B952182DC760096D7C9 /* GoEyeCount.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32917FA173300A99F64 /* GoEyeCount.h */; };
+		D9D55B962182DC760096D7C9 /* GoEyeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32B17FA173300A99F64 /* GoEyeUtil.h */; };
+		D9D55B972182DC760096D7C9 /* GoGame.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32D17FA173300A99F64 /* GoGame.h */; };
+		D9D55B982182DC760096D7C9 /* GoGtpCommandUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA32F17FA173300A99F64 /* GoGtpCommandUtil.h */; };
+		D9D55B992182DC760096D7C9 /* GoGtpEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33117FA173300A99F64 /* GoGtpEngine.h */; };
+		D9D55B9A2182DC760096D7C9 /* GoGtpExtraCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33317FA173300A99F64 /* GoGtpExtraCommands.h */; };
+		D9D55B9B2182DC760096D7C9 /* GoInfluence.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33517FA173300A99F64 /* GoInfluence.h */; };
+		D9D55B9C2182DC760096D7C9 /* GoInit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33717FA173300A99F64 /* GoInit.h */; };
+		D9D55B9D2182DC760096D7C9 /* GoKomi.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33917FA173300A99F64 /* GoKomi.h */; };
+		D9D55B9E2182DC760096D7C9 /* GoLadder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33B17FA173300A99F64 /* GoLadder.h */; };
+		D9D55B9F2182DC760096D7C9 /* GoModBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33C17FA173300A99F64 /* GoModBoard.h */; };
+		D9D55BA02182DC760096D7C9 /* GoMotive.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33E17FA173300A99F64 /* GoMotive.h */; };
+		D9D55BA12182DC760096D7C9 /* GoMoveExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA33F17FA173300A99F64 /* GoMoveExecutor.h */; };
+		D9D55BA22182DC760096D7C9 /* GoNodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34117FA173300A99F64 /* GoNodeUtil.h */; };
+		D9D55BA32182DC760096D7C9 /* GoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34317FA173300A99F64 /* GoPlayer.h */; };
+		D9D55BA42182DC760096D7C9 /* GoPlayerMove.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34517FA173300A99F64 /* GoPlayerMove.h */; };
+		D9D55BA52182DC760096D7C9 /* GoRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34717FA173300A99F64 /* GoRegion.h */; };
+		D9D55BA62182DC760096D7C9 /* GoRegionBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34917FA173300A99F64 /* GoRegionBoard.h */; };
+		D9D55BA72182DC760096D7C9 /* GoRegionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34B17FA173300A99F64 /* GoRegionUtil.h */; };
+		D9D55BA82182DC760096D7C9 /* GoRules.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34D17FA173300A99F64 /* GoRules.h */; };
+		D9D55BA92182DC760096D7C9 /* GoSafetyCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA34F17FA173300A99F64 /* GoSafetyCommands.h */; };
+		D9D55BAA2182DC760096D7C9 /* GoSafetySolver.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35117FA173300A99F64 /* GoSafetySolver.h */; };
+		D9D55BAB2182DC760096D7C9 /* GoSafetyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35317FA173300A99F64 /* GoSafetyUtil.h */; };
+		D9D55BAC2182DC760096D7C9 /* GoSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35517FA173300A99F64 /* GoSearch.h */; };
+		D9D55BAD2182DC760096D7C9 /* GoSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35617FA173300A99F64 /* GoSetup.h */; };
+		D9D55BAE2182DC760096D7C9 /* GoSetupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35817FA173300A99F64 /* GoSetupUtil.h */; };
+		D9D55BAF2182DC760096D7C9 /* GoSortedMoves.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35917FA173300A99F64 /* GoSortedMoves.h */; };
+		D9D55BB02182DC760096D7C9 /* GoStaticLadder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35B17FA173300A99F64 /* GoStaticLadder.h */; };
+		D9D55BB12182DC760096D7C9 /* GoStaticSafetySolver.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35D17FA173300A99F64 /* GoStaticSafetySolver.h */; };
+		D9D55BB22182DC760096D7C9 /* GoTimeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA35F17FA173300A99F64 /* GoTimeControl.h */; };
+		D9D55BB32182DC760096D7C9 /* GoTimeSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA36117FA173300A99F64 /* GoTimeSettings.h */; };
+		D9D55BB42182DC760096D7C9 /* GoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA36317FA173300A99F64 /* GoUtil.h */; };
+		D9D55BB52182DC800096D7C9 /* GoUctAdditiveKnowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA37917FA173300A99F64 /* GoUctAdditiveKnowledge.h */; };
+		D9D55BB62182DC800096D7C9 /* GoUctAdditiveKnowledgeFuego.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA37B17FA173300A99F64 /* GoUctAdditiveKnowledgeFuego.h */; };
+		D9D55BB72182DC800096D7C9 /* GoUctAdditiveKnowledgeGreenpeep.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA37D17FA173300A99F64 /* GoUctAdditiveKnowledgeGreenpeep.h */; };
+		D9D55BB82182DC800096D7C9 /* GoUctAdditiveKnowledgeMultiple.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA067F31870D64A000805B5 /* GoUctAdditiveKnowledgeMultiple.h */; };
+		D9D55BB92182DC800096D7C9 /* GoUctBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA37F17FA173300A99F64 /* GoUctBoard.h */; };
+		D9D55BBA2182DC800096D7C9 /* GoUctBookBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38017FA173300A99F64 /* GoUctBookBuilder.h */; };
+		D9D55BBB2182DC800096D7C9 /* GoUctBookBuilderCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38117FA173300A99F64 /* GoUctBookBuilderCommands.h */; };
+		D9D55BBC2182DC800096D7C9 /* GoUctCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38317FA173300A99F64 /* GoUctCommands.h */; };
+		D9D55BBD2182DC800096D7C9 /* GoUctDefaultMoveFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38517FA173300A99F64 /* GoUctDefaultMoveFilter.h */; };
+		D9D55BBE2182DC800096D7C9 /* GoUctDefaultPriorKnowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38717FA173300A99F64 /* GoUctDefaultPriorKnowledge.h */; };
+		D9D55BBF2182DC800096D7C9 /* GoUctEstimatorStat.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38917FA173300A99F64 /* GoUctEstimatorStat.h */; };
+		D9D55BC02182DC800096D7C9 /* GoUctGammaMoveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38A17FA173300A99F64 /* GoUctGammaMoveGenerator.h */; };
+		D9D55BC12182DC800096D7C9 /* GoUctGlobalPatternData.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38B17FA173300A99F64 /* GoUctGlobalPatternData.h */; };
+		D9D55BC22182DC800096D7C9 /* GoUctGlobalSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38D17FA173300A99F64 /* GoUctGlobalSearch.h */; };
+		D9D55BC32182DC800096D7C9 /* GoUctGreenpeepPatterns19.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38E17FA173300A99F64 /* GoUctGreenpeepPatterns19.h */; };
+		D9D55BC42182DC800096D7C9 /* GoUctGreenpeepPatterns9.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA38F17FA173300A99F64 /* GoUctGreenpeepPatterns9.h */; };
+		D9D55BC52182DC800096D7C9 /* GoUctKnowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39117FA173300A99F64 /* GoUctKnowledge.h */; };
+		D9D55BC62182DC800096D7C9 /* GoUctKnowledgeFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39317FA173300A99F64 /* GoUctKnowledgeFactory.h */; };
+		D9D55BC72182DC800096D7C9 /* GoUctLadderKnowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39517FA173300A99F64 /* GoUctLadderKnowledge.h */; };
+		D9D55BC82182DC800096D7C9 /* GoUctLocalPatternData.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39617FA173300A99F64 /* GoUctLocalPatternData.h */; };
+		D9D55BC92182DC800096D7C9 /* GoUctMoveFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39817FA173300A99F64 /* GoUctMoveFilter.h */; };
+		D9D55BCA2182DC800096D7C9 /* GoUctObjectWithSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39A17FA173300A99F64 /* GoUctObjectWithSearch.h */; };
+		D9D55BCB2182DC800096D7C9 /* GoUctPatternData.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39B17FA173300A99F64 /* GoUctPatternData.h */; };
+		D9D55BCC2182DC800096D7C9 /* GoUctPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39C17FA173300A99F64 /* GoUctPatterns.h */; };
+		D9D55BCD2182DC800096D7C9 /* GoUctPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39D17FA173300A99F64 /* GoUctPlayer.h */; };
+		D9D55BCE2182DC800096D7C9 /* GoUctPlayoutPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA39F17FA173300A99F64 /* GoUctPlayoutPolicy.h */; };
+		D9D55BCF2182DC800096D7C9 /* GoUctPureRandomGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3A017FA173300A99F64 /* GoUctPureRandomGenerator.h */; };
+		D9D55BD02182DC800096D7C9 /* GoUctSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3A217FA173300A99F64 /* GoUctSearch.h */; };
+		D9D55BD12182DC800096D7C9 /* GoUctUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3A417FA173300A99F64 /* GoUctUtil.h */; };
+		D9D55BD22182DC830096D7C9 /* GtpEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3AD17FA173300A99F64 /* GtpEngine.h */; };
+		D9D55BD32182DC830096D7C9 /* GtpInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3AF17FA173300A99F64 /* GtpInputStream.h */; };
+		D9D55BD42182DC830096D7C9 /* GtpOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3B117FA173300A99F64 /* GtpOutputStream.h */; };
+		D9D55BD52182DC880096D7C9 /* SpAveragePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3B817FA173400A99F64 /* SpAveragePlayer.h */; };
+		D9D55BD62182DC880096D7C9 /* SpCapturePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3BA17FA173400A99F64 /* SpCapturePlayer.h */; };
+		D9D55BD72182DC880096D7C9 /* SpDumbTacticalPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3BC17FA173400A99F64 /* SpDumbTacticalPlayer.h */; };
+		D9D55BD82182DC880096D7C9 /* SpGreedyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3BE17FA173400A99F64 /* SpGreedyPlayer.h */; };
+		D9D55BD92182DC880096D7C9 /* SpInfluencePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3C017FA173400A99F64 /* SpInfluencePlayer.h */; };
+		D9D55BDA2182DC880096D7C9 /* SpLadderPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3C217FA173400A99F64 /* SpLadderPlayer.h */; };
+		D9D55BDB2182DC880096D7C9 /* SpLibertyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3C417FA173400A99F64 /* SpLibertyPlayer.h */; };
+		D9D55BDC2182DC880096D7C9 /* SpMaxEyePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3C617FA173400A99F64 /* SpMaxEyePlayer.h */; };
+		D9D55BDD2182DC880096D7C9 /* SpMinLibPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3C817FA173400A99F64 /* SpMinLibPlayer.h */; };
+		D9D55BDE2182DC880096D7C9 /* SpMoveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3CA17FA173400A99F64 /* SpMoveGenerator.h */; };
+		D9D55BDF2182DC880096D7C9 /* SpRandomPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3CC17FA173400A99F64 /* SpRandomPlayer.h */; };
+		D9D55BE02182DC880096D7C9 /* SpSafePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3CE17FA173400A99F64 /* SpSafePlayer.h */; };
+		D9D55BE12182DC880096D7C9 /* SpSimplePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D017FA173400A99F64 /* SpSimplePlayer.h */; };
+		D9D55BE22182DC880096D7C9 /* SpUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D217FA173400A99F64 /* SpUtil.h */; };
+		D9D55BE32182DC8D0096D7C9 /* SgAdditiveKnowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D517FA173400A99F64 /* SgAdditiveKnowledge.h */; };
+		D9D55BE42182DC8D0096D7C9 /* SgArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D617FA173400A99F64 /* SgArray.h */; };
+		D9D55BE52182DC8D0096D7C9 /* SgArrayList.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D717FA173400A99F64 /* SgArrayList.h */; };
+		D9D55BE62182DC8D0096D7C9 /* SgBlackWhite.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D817FA173400A99F64 /* SgBlackWhite.h */; };
+		D9D55BE72182DC8D0096D7C9 /* SgBoardColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3D917FA173400A99F64 /* SgBoardColor.h */; };
+		D9D55BE82182DC8D0096D7C9 /* SgBoardConst.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3DB17FA173400A99F64 /* SgBoardConst.h */; };
+		D9D55BE92182DC8D0096D7C9 /* SgBookBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3DD17FA173400A99F64 /* SgBookBuilder.h */; };
+		D9D55BEA2182DC8D0096D7C9 /* SgBWArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3DE17FA173400A99F64 /* SgBWArray.h */; };
+		D9D55BEB2182DC8D0096D7C9 /* SgBWSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3DF17FA173400A99F64 /* SgBWSet.h */; };
+		D9D55BEC2182DC8D0096D7C9 /* SgCmdLineOpt.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3E117FA173400A99F64 /* SgCmdLineOpt.h */; };
+		D9D55BED2182DC8D0096D7C9 /* SgConnCompIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3E317FA173400A99F64 /* SgConnCompIterator.h */; };
+		D9D55BEE2182DC8D0096D7C9 /* SgDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3E517FA173400A99F64 /* SgDebug.h */; };
+		D9D55BEF2182DC8D0096D7C9 /* SgDfpnSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3E717FA173400A99F64 /* SgDfpnSearch.h */; };
+		D9D55BF02182DC8D0096D7C9 /* SgEBWArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3E817FA173400A99F64 /* SgEBWArray.h */; };
+		D9D55BF12182DC8D0096D7C9 /* SgEvaluatedMoves.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3EA17FA173400A99F64 /* SgEvaluatedMoves.h */; };
+		D9D55BF22182DC8D0096D7C9 /* SgException.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3EC17FA173400A99F64 /* SgException.h */; };
+		D9D55BF32182DC8D0096D7C9 /* SgFastLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3EE17FA173400A99F64 /* SgFastLog.h */; };
+		D9D55BF42182DC8D0096D7C9 /* SgGameReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F017FA173400A99F64 /* SgGameReader.h */; };
+		D9D55BF52182DC8D0096D7C9 /* SgGameWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F217FA173400A99F64 /* SgGameWriter.h */; };
+		D9D55BF62182DC8D0096D7C9 /* SgGtpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F417FA173400A99F64 /* SgGtpClient.h */; };
+		D9D55BF72182DC8D0096D7C9 /* SgGtpCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F617FA173400A99F64 /* SgGtpCommands.h */; };
+		D9D55BF82182DC8D0096D7C9 /* SgGtpUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F817FA173400A99F64 /* SgGtpUtil.h */; };
+		D9D55BF92182DC8D0096D7C9 /* SgHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3F917FA173400A99F64 /* SgHash.h */; };
+		D9D55BFA2182DC8D0096D7C9 /* SgHashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3FA17FA173400A99F64 /* SgHashTable.h */; };
+		D9D55BFB2182DC8D0096D7C9 /* SgIncrementalStack.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3FC17FA173400A99F64 /* SgIncrementalStack.h */; };
+		D9D55BFC2182DC8D0096D7C9 /* SgInit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3FE17FA173400A99F64 /* SgInit.h */; };
+		D9D55BFD2182DC8D0096D7C9 /* SgMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA3FF17FA173400A99F64 /* SgMarker.h */; };
+		D9D55BFE2182DC8D0096D7C9 /* SgMath.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40017FA173400A99F64 /* SgMath.h */; };
+		D9D55BFF2182DC8D0096D7C9 /* SgMemCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40217FA173400A99F64 /* SgMemCheck.h */; };
+		D9D55C002182DC8D0096D7C9 /* SgMiaiMap.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40417FA173400A99F64 /* SgMiaiMap.h */; };
+		D9D55C012182DC8D0096D7C9 /* SgMiaiStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40617FA173400A99F64 /* SgMiaiStrategy.h */; };
+		D9D55C022182DC8D0096D7C9 /* SgMove.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40717FA173400A99F64 /* SgMove.h */; };
+		D9D55C032182DC8D0096D7C9 /* SgMpiSynchronizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40917FA173400A99F64 /* SgMpiSynchronizer.h */; };
+		D9D55C042182DC8D0096D7C9 /* SgNbIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40B17FA173400A99F64 /* SgNbIterator.h */; };
+		D9D55C052182DC8D0096D7C9 /* SgNode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40D17FA173400A99F64 /* SgNode.h */; };
+		D9D55C062182DC8D0096D7C9 /* SgNodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA40F17FA173400A99F64 /* SgNodeUtil.h */; };
+		D9D55C072182DC8D0096D7C9 /* SgPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41117FA173400A99F64 /* SgPlatform.h */; };
+		D9D55C082182DC8D0096D7C9 /* SgPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41317FA173400A99F64 /* SgPoint.h */; };
+		D9D55C092182DC8D0096D7C9 /* SgPointArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41417FA173400A99F64 /* SgPointArray.h */; };
+		D9D55C0A2182DC8D0096D7C9 /* SgPointIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41517FA173400A99F64 /* SgPointIterator.h */; };
+		D9D55C0B2182DC8D0096D7C9 /* SgPointSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41717FA173400A99F64 /* SgPointSet.h */; };
+		D9D55C0C2182DC8D0096D7C9 /* SgPointSetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41917FA173400A99F64 /* SgPointSetUtil.h */; };
+		D9D55C0D2182DC8D0096D7C9 /* SgProbCut.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41B17FA173400A99F64 /* SgProbCut.h */; };
+		D9D55C0E2182DC8D0096D7C9 /* SgProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41D17FA173400A99F64 /* SgProcess.h */; };
+		D9D55C0F2182DC8D0096D7C9 /* SgProp.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA41F17FA173400A99F64 /* SgProp.h */; };
+		D9D55C102182DC8D0096D7C9 /* SgRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42117FA173400A99F64 /* SgRandom.h */; };
+		D9D55C112182DC8D0096D7C9 /* SgRect.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42317FA173400A99F64 /* SgRect.h */; };
+		D9D55C122182DC8D0096D7C9 /* SgRestorer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42417FA173400A99F64 /* SgRestorer.h */; };
+		D9D55C132182DC8D0096D7C9 /* SgSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42617FA173400A99F64 /* SgSearch.h */; };
+		D9D55C142182DC8D0096D7C9 /* SgSearchControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42817FA173400A99F64 /* SgSearchControl.h */; };
+		D9D55C152182DC8D0096D7C9 /* SgSearchStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42A17FA173400A99F64 /* SgSearchStatistics.h */; };
+		D9D55C162182DC8D0096D7C9 /* SgSearchTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42C17FA173400A99F64 /* SgSearchTracer.h */; };
+		D9D55C172182DC8D0096D7C9 /* SgSearchValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42E17FA173400A99F64 /* SgSearchValue.h */; };
+		D9D55C182182DC8D0096D7C9 /* SgSortedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA42F17FA173400A99F64 /* SgSortedArray.h */; };
+		D9D55C192182DC8D0096D7C9 /* SgSortedMoves.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43017FA173400A99F64 /* SgSortedMoves.h */; };
+		D9D55C1A2182DC8D0096D7C9 /* SgStack.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43117FA173400A99F64 /* SgStack.h */; };
+		D9D55C1B2182DC8D0096D7C9 /* SgStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43217FA173400A99F64 /* SgStatistics.h */; };
+		D9D55C1C2182DC8D0096D7C9 /* SgStatisticsVlt.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43317FA173400A99F64 /* SgStatisticsVlt.h */; };
+		D9D55C1D2182DC8D0096D7C9 /* SgStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43517FA173400A99F64 /* SgStrategy.h */; };
+		D9D55C1E2182DC8D0096D7C9 /* SgStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43717FA173400A99F64 /* SgStringUtil.h */; };
+		D9D55C1F2182DC8D0096D7C9 /* SgSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43917FA173400A99F64 /* SgSystem.h */; };
+		D9D55C202182DC8D0096D7C9 /* SgThreadedWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43A17FA173400A99F64 /* SgThreadedWorker.h */; };
+		D9D55C212182DC8D0096D7C9 /* SgTime.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43C17FA173400A99F64 /* SgTime.h */; };
+		D9D55C222182DC8D0096D7C9 /* SgTimeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43E17FA173400A99F64 /* SgTimeControl.h */; };
+		D9D55C232182DC8D0096D7C9 /* SgTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA43F17FA173400A99F64 /* SgTimer.h */; };
+		D9D55C242182DC8D0096D7C9 /* SgTimeRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44117FA173400A99F64 /* SgTimeRecord.h */; };
+		D9D55C252182DC8D0096D7C9 /* SgUctSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44317FA173400A99F64 /* SgUctSearch.h */; };
+		D9D55C262182DC8D0096D7C9 /* SgUctTree.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44517FA173400A99F64 /* SgUctTree.h */; };
+		D9D55C272182DC8D0096D7C9 /* SgUctTreeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44717FA173400A99F64 /* SgUctTreeUtil.h */; };
+		D9D55C282182DC8D0096D7C9 /* SgUctValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44817FA173400A99F64 /* SgUctValue.h */; };
+		D9D55C292182DC8D0096D7C9 /* SgUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44A17FA173400A99F64 /* SgUtil.h */; };
+		D9D55C2A2182DC8D0096D7C9 /* SgVector.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44B17FA173400A99F64 /* SgVector.h */; };
+		D9D55C2B2182DC8D0096D7C9 /* SgVectorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44D17FA173400A99F64 /* SgVectorUtil.h */; };
+		D9D55C2C2182DC8D0096D7C9 /* SgWrite.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEFA44F17FA173400A99F64 /* SgWrite.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -612,6 +906,9 @@
 		CDEFA44D17FA173400A99F64 /* SgVectorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SgVectorUtil.h; sourceTree = "<group>"; };
 		CDEFA44E17FA173400A99F64 /* SgWrite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SgWrite.cpp; sourceTree = "<group>"; };
 		CDEFA44F17FA173400A99F64 /* SgWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SgWrite.h; sourceTree = "<group>"; };
+		D9D55B002182DBA80096D7C9 /* fuego.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fuego.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D55B022182DBA90096D7C9 /* fuego.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fuego.h; sourceTree = "<group>"; };
+		D9D55B032182DBA90096D7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -621,6 +918,13 @@
 			files = (
 				CDEFA30017FA15C200A99F64 /* boost.framework in Frameworks */,
 				CDEFA2F217FA151100A99F64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D55AFD2182DBA80096D7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +941,7 @@
 				CDEFA3B517FA173300A99F64 /* simpleplayers */,
 				CDEFA3D317FA173400A99F64 /* smartgame */,
 				CDEFA2FF17FA15C200A99F64 /* boost.framework */,
+				D9D55B012182DBA90096D7C9 /* fuego-on-ios */,
 				CDEFA2F017FA151100A99F64 /* Frameworks */,
 				CDEFA2EF17FA151100A99F64 /* Products */,
 			);
@@ -646,6 +951,7 @@
 			isa = PBXGroup;
 			children = (
 				CDEFA2EE17FA151100A99F64 /* libfuego-on-ios.a */,
+				D9D55B002182DBA80096D7C9 /* fuego.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -994,6 +1300,15 @@
 			path = smartgame;
 			sourceTree = "<group>";
 		};
+		D9D55B012182DBA90096D7C9 /* fuego-on-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D9D55B022182DBA90096D7C9 /* fuego.h */,
+				D9D55B032182DBA90096D7C9 /* Info.plist */,
+			);
+			path = "fuego-on-ios";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1169,12 +1484,187 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D55AFB2182DBA80096D7C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D55BCC2182DC800096D7C9 /* GoUctPatterns.h in Headers */,
+				D9D55BB02182DC760096D7C9 /* GoStaticLadder.h in Headers */,
+				D9D55BB72182DC800096D7C9 /* GoUctAdditiveKnowledgeGreenpeep.h in Headers */,
+				D9D55C162182DC8D0096D7C9 /* SgSearchTracer.h in Headers */,
+				D9D55BFF2182DC8D0096D7C9 /* SgMemCheck.h in Headers */,
+				D9D55BE02182DC880096D7C9 /* SpSafePlayer.h in Headers */,
+				D9D55BC22182DC800096D7C9 /* GoUctGlobalSearch.h in Headers */,
+				D9D55B8F2182DC760096D7C9 /* GoBoardRestorer.h in Headers */,
+				D9D55B8E2182DC760096D7C9 /* GoBoardHistory.h in Headers */,
+				D9D55BA32182DC760096D7C9 /* GoPlayer.h in Headers */,
+				D9D55BFB2182DC8D0096D7C9 /* SgIncrementalStack.h in Headers */,
+				D9D55BCA2182DC800096D7C9 /* GoUctObjectWithSearch.h in Headers */,
+				D9D55C132182DC8D0096D7C9 /* SgSearch.h in Headers */,
+				D9D55C112182DC8D0096D7C9 /* SgRect.h in Headers */,
+				D9D55C102182DC8D0096D7C9 /* SgRandom.h in Headers */,
+				D9D55B8A2182DC760096D7C9 /* GoBensonSolver.h in Headers */,
+				D9D55BAC2182DC760096D7C9 /* GoSearch.h in Headers */,
+				D9D55BE12182DC880096D7C9 /* SpSimplePlayer.h in Headers */,
+				D9D55BC32182DC800096D7C9 /* GoUctGreenpeepPatterns19.h in Headers */,
+				D9D55BBB2182DC800096D7C9 /* GoUctBookBuilderCommands.h in Headers */,
+				D9D55BC52182DC800096D7C9 /* GoUctKnowledge.h in Headers */,
+				D9D55BC92182DC800096D7C9 /* GoUctMoveFilter.h in Headers */,
+				D9D55BAB2182DC760096D7C9 /* GoSafetyUtil.h in Headers */,
+				D9D55C1A2182DC8D0096D7C9 /* SgStack.h in Headers */,
+				D9D55BD62182DC880096D7C9 /* SpCapturePlayer.h in Headers */,
+				D9D55BBC2182DC800096D7C9 /* GoUctCommands.h in Headers */,
+				D9D55B972182DC760096D7C9 /* GoGame.h in Headers */,
+				D9D55C1B2182DC8D0096D7C9 /* SgStatistics.h in Headers */,
+				D9D55BC82182DC800096D7C9 /* GoUctLocalPatternData.h in Headers */,
+				D9D55C282182DC8D0096D7C9 /* SgUctValue.h in Headers */,
+				D9D55BEA2182DC8D0096D7C9 /* SgBWArray.h in Headers */,
+				D9D55BE22182DC880096D7C9 /* SpUtil.h in Headers */,
+				D9D55BA92182DC760096D7C9 /* GoSafetyCommands.h in Headers */,
+				D9D55BB52182DC800096D7C9 /* GoUctAdditiveKnowledge.h in Headers */,
+				D9D55C022182DC8D0096D7C9 /* SgMove.h in Headers */,
+				D9D55BC12182DC800096D7C9 /* GoUctGlobalPatternData.h in Headers */,
+				D9D55B9E2182DC760096D7C9 /* GoLadder.h in Headers */,
+				D9D55C1D2182DC8D0096D7C9 /* SgStrategy.h in Headers */,
+				D9D55C072182DC8D0096D7C9 /* SgPlatform.h in Headers */,
+				D9D55BCD2182DC800096D7C9 /* GoUctPlayer.h in Headers */,
+				D9D55BD72182DC880096D7C9 /* SpDumbTacticalPlayer.h in Headers */,
+				D9D55BE52182DC8D0096D7C9 /* SgArrayList.h in Headers */,
+				D9D55C0B2182DC8D0096D7C9 /* SgPointSet.h in Headers */,
+				D9D55BBA2182DC800096D7C9 /* GoUctBookBuilder.h in Headers */,
+				D9D55BF32182DC8D0096D7C9 /* SgFastLog.h in Headers */,
+				D9D55B952182DC760096D7C9 /* GoEyeCount.h in Headers */,
+				D9D55BDB2182DC880096D7C9 /* SpLibertyPlayer.h in Headers */,
+				D9D55B962182DC760096D7C9 /* GoEyeUtil.h in Headers */,
+				D9D55BB62182DC800096D7C9 /* GoUctAdditiveKnowledgeFuego.h in Headers */,
+				D9D55BAD2182DC760096D7C9 /* GoSetup.h in Headers */,
+				D9D55BEE2182DC8D0096D7C9 /* SgDebug.h in Headers */,
+				D9D55BD52182DC880096D7C9 /* SpAveragePlayer.h in Headers */,
+				D9D55C0D2182DC8D0096D7C9 /* SgProbCut.h in Headers */,
+				D9D55BCB2182DC800096D7C9 /* GoUctPatternData.h in Headers */,
+				D9D55BE82182DC8D0096D7C9 /* SgBoardConst.h in Headers */,
+				D9D55BA12182DC760096D7C9 /* GoMoveExecutor.h in Headers */,
+				D9D55B982182DC760096D7C9 /* GoGtpCommandUtil.h in Headers */,
+				D9D55BFC2182DC8D0096D7C9 /* SgInit.h in Headers */,
+				D9D55B862182DC4F0096D7C9 /* FuegoMainEngine.h in Headers */,
+				D9D55B9C2182DC760096D7C9 /* GoInit.h in Headers */,
+				D9D55BFA2182DC8D0096D7C9 /* SgHashTable.h in Headers */,
+				D9D55BC72182DC800096D7C9 /* GoUctLadderKnowledge.h in Headers */,
+				D9D55C122182DC8D0096D7C9 /* SgRestorer.h in Headers */,
+				D9D55BBD2182DC800096D7C9 /* GoUctDefaultMoveFilter.h in Headers */,
+				D9D55BF52182DC8D0096D7C9 /* SgGameWriter.h in Headers */,
+				D9D55B8B2182DC760096D7C9 /* GoBlock.h in Headers */,
+				D9D55C272182DC8D0096D7C9 /* SgUctTreeUtil.h in Headers */,
+				D9D55C212182DC8D0096D7C9 /* SgTime.h in Headers */,
+				D9D55C2C2182DC8D0096D7C9 /* SgWrite.h in Headers */,
+				D9D55BBF2182DC800096D7C9 /* GoUctEstimatorStat.h in Headers */,
+				D9D55BDA2182DC880096D7C9 /* SpLadderPlayer.h in Headers */,
+				D9D55C1C2182DC8D0096D7C9 /* SgStatisticsVlt.h in Headers */,
+				D9D55BDE2182DC880096D7C9 /* SpMoveGenerator.h in Headers */,
+				D9D55BB32182DC760096D7C9 /* GoTimeSettings.h in Headers */,
+				D9D55C002182DC8D0096D7C9 /* SgMiaiMap.h in Headers */,
+				D9D55BAF2182DC760096D7C9 /* GoSortedMoves.h in Headers */,
+				D9D55BBE2182DC800096D7C9 /* GoUctDefaultPriorKnowledge.h in Headers */,
+				D9D55BC62182DC800096D7C9 /* GoUctKnowledgeFactory.h in Headers */,
+				D9D55B8D2182DC760096D7C9 /* GoBoardCheckPerformance.h in Headers */,
+				D9D55BCF2182DC800096D7C9 /* GoUctPureRandomGenerator.h in Headers */,
+				D9D55C262182DC8D0096D7C9 /* SgUctTree.h in Headers */,
+				D9D55BFD2182DC8D0096D7C9 /* SgMarker.h in Headers */,
+				D9D55BD02182DC800096D7C9 /* GoUctSearch.h in Headers */,
+				D9D55C062182DC8D0096D7C9 /* SgNodeUtil.h in Headers */,
+				D9D55BF02182DC8D0096D7C9 /* SgEBWArray.h in Headers */,
+				D9D55C152182DC8D0096D7C9 /* SgSearchStatistics.h in Headers */,
+				D9D55BCE2182DC800096D7C9 /* GoUctPlayoutPolicy.h in Headers */,
+				D9D55BF12182DC8D0096D7C9 /* SgEvaluatedMoves.h in Headers */,
+				D9D55B882182DC760096D7C9 /* GoAssertBoardRestored.h in Headers */,
+				D9D55BA52182DC760096D7C9 /* GoRegion.h in Headers */,
+				D9D55BE42182DC8D0096D7C9 /* SgArray.h in Headers */,
+				D9D55BA72182DC760096D7C9 /* GoRegionUtil.h in Headers */,
+				D9D55BDF2182DC880096D7C9 /* SpRandomPlayer.h in Headers */,
+				D9D55BF72182DC8D0096D7C9 /* SgGtpCommands.h in Headers */,
+				D9D55BF62182DC8D0096D7C9 /* SgGtpClient.h in Headers */,
+				D9D55BDD2182DC880096D7C9 /* SpMinLibPlayer.h in Headers */,
+				D9D55BD22182DC830096D7C9 /* GtpEngine.h in Headers */,
+				D9D55B892182DC760096D7C9 /* GoAutoBook.h in Headers */,
+				D9D55B9F2182DC760096D7C9 /* GoModBoard.h in Headers */,
+				D9D55C172182DC8D0096D7C9 /* SgSearchValue.h in Headers */,
+				D9D55C142182DC8D0096D7C9 /* SgSearchControl.h in Headers */,
+				D9D55BEF2182DC8D0096D7C9 /* SgDfpnSearch.h in Headers */,
+				D9D55C202182DC8D0096D7C9 /* SgThreadedWorker.h in Headers */,
+				D9D55BE62182DC8D0096D7C9 /* SgBlackWhite.h in Headers */,
+				D9D55C0E2182DC8D0096D7C9 /* SgProcess.h in Headers */,
+				D9D55BB22182DC760096D7C9 /* GoTimeControl.h in Headers */,
+				D9D55BEB2182DC8D0096D7C9 /* SgBWSet.h in Headers */,
+				D9D55C0F2182DC8D0096D7C9 /* SgProp.h in Headers */,
+				D9D55B992182DC760096D7C9 /* GoGtpEngine.h in Headers */,
+				D9D55BF42182DC8D0096D7C9 /* SgGameReader.h in Headers */,
+				D9D55C2A2182DC8D0096D7C9 /* SgVector.h in Headers */,
+				D9D55BB12182DC760096D7C9 /* GoStaticSafetySolver.h in Headers */,
+				D9D55B942182DC760096D7C9 /* GoChain.h in Headers */,
+				D9D55C042182DC8D0096D7C9 /* SgNbIterator.h in Headers */,
+				D9D55BA22182DC760096D7C9 /* GoNodeUtil.h in Headers */,
+				D9D55BAA2182DC760096D7C9 /* GoSafetySolver.h in Headers */,
+				D9D55BA62182DC760096D7C9 /* GoRegionBoard.h in Headers */,
+				D9D55C292182DC8D0096D7C9 /* SgUtil.h in Headers */,
+				D9D55BE92182DC8D0096D7C9 /* SgBookBuilder.h in Headers */,
+				D9D55C082182DC8D0096D7C9 /* SgPoint.h in Headers */,
+				D9D55C092182DC8D0096D7C9 /* SgPointArray.h in Headers */,
+				D9D55B932182DC760096D7C9 /* GoBook.h in Headers */,
+				D9D55BEC2182DC8D0096D7C9 /* SgCmdLineOpt.h in Headers */,
+				D9D55BE72182DC8D0096D7C9 /* SgBoardColor.h in Headers */,
+				D9D55BB42182DC760096D7C9 /* GoUtil.h in Headers */,
+				D9D55C222182DC8D0096D7C9 /* SgTimeControl.h in Headers */,
+				D9D55C2B2182DC8D0096D7C9 /* SgVectorUtil.h in Headers */,
+				D9D55BF22182DC8D0096D7C9 /* SgException.h in Headers */,
+				D9D55BD12182DC800096D7C9 /* GoUctUtil.h in Headers */,
+				D9D55C052182DC8D0096D7C9 /* SgNode.h in Headers */,
+				D9D55BA02182DC760096D7C9 /* GoMotive.h in Headers */,
+				D9D55B8C2182DC760096D7C9 /* GoBoard.h in Headers */,
+				D9D55C032182DC8D0096D7C9 /* SgMpiSynchronizer.h in Headers */,
+				D9D55C1E2182DC8D0096D7C9 /* SgStringUtil.h in Headers */,
+				D9D55BC02182DC800096D7C9 /* GoUctGammaMoveGenerator.h in Headers */,
+				D9D55C232182DC8D0096D7C9 /* SgTimer.h in Headers */,
+				D9D55C012182DC8D0096D7C9 /* SgMiaiStrategy.h in Headers */,
+				D9D55B042182DBA90096D7C9 /* fuego.h in Headers */,
+				D9D55B912182DC760096D7C9 /* GoBoardUpdater.h in Headers */,
+				D9D55BDC2182DC880096D7C9 /* SpMaxEyePlayer.h in Headers */,
+				D9D55BA82182DC760096D7C9 /* GoRules.h in Headers */,
+				D9D55BD82182DC880096D7C9 /* SpGreedyPlayer.h in Headers */,
+				D9D55C1F2182DC8D0096D7C9 /* SgSystem.h in Headers */,
+				D9D55BAE2182DC760096D7C9 /* GoSetupUtil.h in Headers */,
+				D9D55C192182DC8D0096D7C9 /* SgSortedMoves.h in Headers */,
+				D9D55BC42182DC800096D7C9 /* GoUctGreenpeepPatterns9.h in Headers */,
+				D9D55BB82182DC800096D7C9 /* GoUctAdditiveKnowledgeMultiple.h in Headers */,
+				D9D55C242182DC8D0096D7C9 /* SgTimeRecord.h in Headers */,
+				D9D55BD32182DC830096D7C9 /* GtpInputStream.h in Headers */,
+				D9D55C252182DC8D0096D7C9 /* SgUctSearch.h in Headers */,
+				D9D55B9B2182DC760096D7C9 /* GoInfluence.h in Headers */,
+				D9D55BE32182DC8D0096D7C9 /* SgAdditiveKnowledge.h in Headers */,
+				D9D55B9D2182DC760096D7C9 /* GoKomi.h in Headers */,
+				D9D55C0A2182DC8D0096D7C9 /* SgPointIterator.h in Headers */,
+				D9D55B922182DC760096D7C9 /* GoBoardUtil.h in Headers */,
+				D9D55C0C2182DC8D0096D7C9 /* SgPointSetUtil.h in Headers */,
+				D9D55B9A2182DC760096D7C9 /* GoGtpExtraCommands.h in Headers */,
+				D9D55BF82182DC8D0096D7C9 /* SgGtpUtil.h in Headers */,
+				D9D55B872182DC4F0096D7C9 /* FuegoMainUtil.h in Headers */,
+				D9D55BED2182DC8D0096D7C9 /* SgConnCompIterator.h in Headers */,
+				D9D55BF92182DC8D0096D7C9 /* SgHash.h in Headers */,
+				D9D55BFE2182DC8D0096D7C9 /* SgMath.h in Headers */,
+				D9D55BD92182DC880096D7C9 /* SpInfluencePlayer.h in Headers */,
+				D9D55C182182DC8D0096D7C9 /* SgSortedArray.h in Headers */,
+				D9D55BA42182DC760096D7C9 /* GoPlayerMove.h in Headers */,
+				D9D55BB92182DC800096D7C9 /* GoUctBoard.h in Headers */,
+				D9D55B902182DC760096D7C9 /* GoBoardSynchronizer.h in Headers */,
+				D9D55BD42182DC830096D7C9 /* GtpOutputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CDEFA2ED17FA151100A99F64 /* fuego-on-ios */ = {
+		CDEFA2ED17FA151100A99F64 /* fuego-on-ios (Static Library) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDEFA2FC17FA151100A99F64 /* Build configuration list for PBXNativeTarget "fuego-on-ios" */;
+			buildConfigurationList = CDEFA2FC17FA151100A99F64 /* Build configuration list for PBXNativeTarget "fuego-on-ios (Static Library)" */;
 			buildPhases = (
 				CDEFA2EA17FA151100A99F64 /* Sources */,
 				CDEFA2EB17FA151100A99F64 /* Frameworks */,
@@ -1185,10 +1675,28 @@
 			);
 			dependencies = (
 			);
-			name = "fuego-on-ios";
+			name = "fuego-on-ios (Static Library)";
 			productName = "fuego-on-ios";
 			productReference = CDEFA2EE17FA151100A99F64 /* libfuego-on-ios.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		D9D55AFF2182DBA80096D7C9 /* fuego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D55B052182DBA90096D7C9 /* Build configuration list for PBXNativeTarget "fuego" */;
+			buildPhases = (
+				D9D55AFB2182DBA80096D7C9 /* Headers */,
+				D9D55AFC2182DBA80096D7C9 /* Sources */,
+				D9D55AFD2182DBA80096D7C9 /* Frameworks */,
+				D9D55AFE2182DBA80096D7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fuego;
+			productName = "fuego-on-ios";
+			productReference = D9D55B002182DBA80096D7C9 /* fuego.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -1196,8 +1704,14 @@
 		CDEFA2E617FA151100A99F64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Patrick Näf Moser";
+				TargetAttributes = {
+					D9D55AFF2182DBA80096D7C9 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = CDEFA2E917FA151100A99F64 /* Build configuration list for PBXProject "fuego-on-ios" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1211,10 +1725,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDEFA2ED17FA151100A99F64 /* fuego-on-ios */,
+				CDEFA2ED17FA151100A99F64 /* fuego-on-ios (Static Library) */,
+				D9D55AFF2182DBA80096D7C9 /* fuego */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D55AFE2182DBA80096D7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDEFA2EA17FA151100A99F64 /* Sources */ = {
@@ -1350,6 +1875,139 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D55AFC2182DBA80096D7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D55B132182DC230096D7C9 /* GoBoardUtil.cpp in Sources */,
+				D9D55B112182DC230096D7C9 /* GoBoardSynchronizer.cpp in Sources */,
+				D9D55B0A2182DC230096D7C9 /* GoAutoBook.cpp in Sources */,
+				D9D55B712182DC350096D7C9 /* SgProcess.cpp in Sources */,
+				D9D55B212182DC230096D7C9 /* GoNodeUtil.cpp in Sources */,
+				D9D55B752182DC350096D7C9 /* SgSearch.cpp in Sources */,
+				D9D55B722182DC350096D7C9 /* SgProp.cpp in Sources */,
+				D9D55B852182DC350096D7C9 /* SgWrite.cpp in Sources */,
+				D9D55B3A2182DC270096D7C9 /* GoUctEstimatorStat.cpp in Sources */,
+				D9D55B1E2182DC230096D7C9 /* GoKomi.cpp in Sources */,
+				D9D55B4F2182DC2F0096D7C9 /* SpMinLibPlayer.cpp in Sources */,
+				D9D55B762182DC350096D7C9 /* SgSearchControl.cpp in Sources */,
+				D9D55B312182DC230096D7C9 /* GoUtil.cpp in Sources */,
+				D9D55B4B2182DC2F0096D7C9 /* SpInfluencePlayer.cpp in Sources */,
+				D9D55B372182DC270096D7C9 /* GoUctCommands.cpp in Sources */,
+				D9D55B732182DC350096D7C9 /* SgRandom.cpp in Sources */,
+				D9D55B452182DC2B0096D7C9 /* GtpInputStream.cpp in Sources */,
+				D9D55B332182DC270096D7C9 /* GoUctAdditiveKnowledgeFuego.cpp in Sources */,
+				D9D55B7C2182DC350096D7C9 /* SgSystem.cpp in Sources */,
+				D9D55B602182DC350096D7C9 /* SgGtpClient.cpp in Sources */,
+				D9D55B4D2182DC2F0096D7C9 /* SpLibertyPlayer.cpp in Sources */,
+				D9D55B422182DC270096D7C9 /* GoUctSearch.cpp in Sources */,
+				D9D55B192182DC230096D7C9 /* GoGtpCommandUtil.cpp in Sources */,
+				D9D55B342182DC270096D7C9 /* GoUctAdditiveKnowledgeGreenpeep.cpp in Sources */,
+				D9D55B352182DC270096D7C9 /* GoUctAdditiveKnowledgeMultiple.cpp in Sources */,
+				D9D55B7E2182DC350096D7C9 /* SgTimeControl.cpp in Sources */,
+				D9D55B462182DC2B0096D7C9 /* GtpOutputStream.cpp in Sources */,
+				D9D55B0B2182DC230096D7C9 /* GoBensonSolver.cpp in Sources */,
+				D9D55B412182DC270096D7C9 /* GoUctPlayoutPolicy.cpp in Sources */,
+				D9D55B1A2182DC230096D7C9 /* GoGtpEngine.cpp in Sources */,
+				D9D55B652182DC350096D7C9 /* SgMemCheck.cpp in Sources */,
+				D9D55B592182DC350096D7C9 /* SgDebug.cpp in Sources */,
+				D9D55B122182DC230096D7C9 /* GoBoardUpdater.cpp in Sources */,
+				D9D55B6F2182DC350096D7C9 /* SgPointSetUtil.cpp in Sources */,
+				D9D55B582182DC350096D7C9 /* SgConnCompIterator.cpp in Sources */,
+				D9D55B172182DC230096D7C9 /* GoEyeUtil.cpp in Sources */,
+				D9D55B4E2182DC2F0096D7C9 /* SpMaxEyePlayer.cpp in Sources */,
+				D9D55B3D2182DC270096D7C9 /* GoUctKnowledgeFactory.cpp in Sources */,
+				D9D55B682182DC350096D7C9 /* SgMpiSynchronizer.cpp in Sources */,
+				D9D55B0D2182DC230096D7C9 /* GoBoard.cpp in Sources */,
+				D9D55B0F2182DC230096D7C9 /* GoBoardHistory.cpp in Sources */,
+				D9D55B082182DC1A0096D7C9 /* FuegoMainEngine.cpp in Sources */,
+				D9D55B5D2182DC350096D7C9 /* SgFastLog.cpp in Sources */,
+				D9D55B4C2182DC2F0096D7C9 /* SpLadderPlayer.cpp in Sources */,
+				D9D55B142182DC230096D7C9 /* GoBook.cpp in Sources */,
+				D9D55B162182DC230096D7C9 /* GoEyeCount.cpp in Sources */,
+				D9D55B2A2182DC230096D7C9 /* GoSafetyUtil.cpp in Sources */,
+				D9D55B322182DC270096D7C9 /* GoUctAdditiveKnowledge.cpp in Sources */,
+				D9D55B612182DC350096D7C9 /* SgGtpCommands.cpp in Sources */,
+				D9D55B4A2182DC2F0096D7C9 /* SpGreedyPlayer.cpp in Sources */,
+				D9D55B622182DC350096D7C9 /* SgGtpUtil.cpp in Sources */,
+				D9D55B092182DC1E0096D7C9 /* FuegoMainUtil.cpp in Sources */,
+				D9D55B1F2182DC230096D7C9 /* GoLadder.cpp in Sources */,
+				D9D55B552182DC350096D7C9 /* SgBoardConst.cpp in Sources */,
+				D9D55B3E2182DC270096D7C9 /* GoUctLadderKnowledge.cpp in Sources */,
+				D9D55B6A2182DC350096D7C9 /* SgNode.cpp in Sources */,
+				D9D55B562182DC350096D7C9 /* SgBookBuilder.cpp in Sources */,
+				D9D55B242182DC230096D7C9 /* GoRegion.cpp in Sources */,
+				D9D55B792182DC350096D7C9 /* SgSearchValue.cpp in Sources */,
+				D9D55B1B2182DC230096D7C9 /* GoGtpExtraCommands.cpp in Sources */,
+				D9D55B302182DC230096D7C9 /* GoTimeSettings.cpp in Sources */,
+				D9D55B1D2182DC230096D7C9 /* GoInit.cpp in Sources */,
+				D9D55B102182DC230096D7C9 /* GoBoardRestorer.cpp in Sources */,
+				D9D55B0E2182DC230096D7C9 /* GoBoardCheckPerformance.cpp in Sources */,
+				D9D55B182182DC230096D7C9 /* GoGame.cpp in Sources */,
+				D9D55B0C2182DC230096D7C9 /* GoBlock.cpp in Sources */,
+				D9D55B692182DC350096D7C9 /* SgNbIterator.cpp in Sources */,
+				D9D55B5F2182DC350096D7C9 /* SgGameWriter.cpp in Sources */,
+				D9D55B1C2182DC230096D7C9 /* GoInfluence.cpp in Sources */,
+				D9D55B6C2182DC350096D7C9 /* SgPlatform.cpp in Sources */,
+				D9D55B432182DC270096D7C9 /* GoUctUtil.cpp in Sources */,
+				D9D55B362182DC270096D7C9 /* GoUctBoard.cpp in Sources */,
+				D9D55B822182DC350096D7C9 /* SgUctTreeUtil.cpp in Sources */,
+				D9D55B802182DC350096D7C9 /* SgUctSearch.cpp in Sources */,
+				D9D55B492182DC2F0096D7C9 /* SpDumbTacticalPlayer.cpp in Sources */,
+				D9D55B522182DC2F0096D7C9 /* SpSafePlayer.cpp in Sources */,
+				D9D55B202182DC230096D7C9 /* GoMotive.cpp in Sources */,
+				D9D55B252182DC230096D7C9 /* GoRegionBoard.cpp in Sources */,
+				D9D55B5C2182DC350096D7C9 /* SgException.cpp in Sources */,
+				D9D55B152182DC230096D7C9 /* GoChain.cpp in Sources */,
+				D9D55B832182DC350096D7C9 /* SgUtil.cpp in Sources */,
+				D9D55B2E2182DC230096D7C9 /* GoStaticSafetySolver.cpp in Sources */,
+				D9D55B392182DC270096D7C9 /* GoUctDefaultPriorKnowledge.cpp in Sources */,
+				D9D55B632182DC350096D7C9 /* SgIncrementalStack.cpp in Sources */,
+				D9D55B662182DC350096D7C9 /* SgMiaiMap.cpp in Sources */,
+				D9D55B482182DC2F0096D7C9 /* SpCapturePlayer.cpp in Sources */,
+				D9D55B572182DC350096D7C9 /* SgCmdLineOpt.cpp in Sources */,
+				D9D55B472182DC2F0096D7C9 /* SpAveragePlayer.cpp in Sources */,
+				D9D55B282182DC230096D7C9 /* GoSafetyCommands.cpp in Sources */,
+				D9D55B7D2182DC350096D7C9 /* SgTime.cpp in Sources */,
+				D9D55B3F2182DC270096D7C9 /* GoUctMoveFilter.cpp in Sources */,
+				D9D55B6E2182DC350096D7C9 /* SgPointSet.cpp in Sources */,
+				D9D55B222182DC230096D7C9 /* GoPlayer.cpp in Sources */,
+				D9D55B812182DC350096D7C9 /* SgUctTree.cpp in Sources */,
+				D9D55B6D2182DC350096D7C9 /* SgPoint.cpp in Sources */,
+				D9D55B782182DC350096D7C9 /* SgSearchTracer.cpp in Sources */,
+				D9D55B2F2182DC230096D7C9 /* GoTimeControl.cpp in Sources */,
+				D9D55B7A2182DC350096D7C9 /* SgStrategy.cpp in Sources */,
+				D9D55B292182DC230096D7C9 /* GoSafetySolver.cpp in Sources */,
+				D9D55B702182DC350096D7C9 /* SgProbCut.cpp in Sources */,
+				D9D55B842182DC350096D7C9 /* SgVectorUtil.cpp in Sources */,
+				D9D55B442182DC2B0096D7C9 /* GtpEngine.cpp in Sources */,
+				D9D55B742182DC350096D7C9 /* SgRect.cpp in Sources */,
+				D9D55B7F2182DC350096D7C9 /* SgTimeRecord.cpp in Sources */,
+				D9D55B5B2182DC350096D7C9 /* SgEvaluatedMoves.cpp in Sources */,
+				D9D55B512182DC2F0096D7C9 /* SpRandomPlayer.cpp in Sources */,
+				D9D55B272182DC230096D7C9 /* GoRules.cpp in Sources */,
+				D9D55B672182DC350096D7C9 /* SgMiaiStrategy.cpp in Sources */,
+				D9D55B642182DC350096D7C9 /* SgInit.cpp in Sources */,
+				D9D55B2D2182DC230096D7C9 /* GoStaticLadder.cpp in Sources */,
+				D9D55B7B2182DC350096D7C9 /* SgStringUtil.cpp in Sources */,
+				D9D55B502182DC2F0096D7C9 /* SpMoveGenerator.cpp in Sources */,
+				D9D55B772182DC350096D7C9 /* SgSearchStatistics.cpp in Sources */,
+				D9D55B2B2182DC230096D7C9 /* GoSearch.cpp in Sources */,
+				D9D55B3B2182DC270096D7C9 /* GoUctGlobalSearch.cpp in Sources */,
+				D9D55B5E2182DC350096D7C9 /* SgGameReader.cpp in Sources */,
+				D9D55B2C2182DC230096D7C9 /* GoSetupUtil.cpp in Sources */,
+				D9D55B262182DC230096D7C9 /* GoRegionUtil.cpp in Sources */,
+				D9D55B3C2182DC270096D7C9 /* GoUctKnowledge.cpp in Sources */,
+				D9D55B382182DC270096D7C9 /* GoUctDefaultMoveFilter.cpp in Sources */,
+				D9D55B532182DC2F0096D7C9 /* SpSimplePlayer.cpp in Sources */,
+				D9D55B542182DC2F0096D7C9 /* SpUtil.cpp in Sources */,
+				D9D55B5A2182DC350096D7C9 /* SgDfpnSearch.cpp in Sources */,
+				D9D55B6B2182DC350096D7C9 /* SgNodeUtil.cpp in Sources */,
+				D9D55B232182DC230096D7C9 /* GoPlayerMove.cpp in Sources */,
+				D9D55B402182DC270096D7C9 /* GoUctObjectWithSearch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -1358,22 +2016,40 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers;
 				SDKROOT = iphoneos;
@@ -1385,20 +2061,37 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1408,13 +2101,14 @@
 		CDEFA2FD17FA151100A99F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DSTROOT = /tmp/fuego_on_ios.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/boost/ios/framework\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1422,14 +2116,103 @@
 		CDEFA2FE17FA151100A99F64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DSTROOT = /tmp/fuego_on_ios.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/boost/ios/framework\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9D55B062182DBA90096D7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/boost/ios/framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "fuego-on-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuego.fuego-on-ios";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9D55B072182DBA90096D7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/boost/ios/framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "fuego-on-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuego.fuego-on-ios";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1445,11 +2228,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDEFA2FC17FA151100A99F64 /* Build configuration list for PBXNativeTarget "fuego-on-ios" */ = {
+		CDEFA2FC17FA151100A99F64 /* Build configuration list for PBXNativeTarget "fuego-on-ios (Static Library)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDEFA2FD17FA151100A99F64 /* Debug */,
 				CDEFA2FE17FA151100A99F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D55B052182DBA90096D7C9 /* Build configuration list for PBXNativeTarget "fuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D55B062182DBA90096D7C9 /* Debug */,
+				D9D55B072182DBA90096D7C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
